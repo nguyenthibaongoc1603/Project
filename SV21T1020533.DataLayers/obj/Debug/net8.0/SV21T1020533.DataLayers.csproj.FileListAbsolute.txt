@@ -1,0 +1,15 @@
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\bin\Debug\net8.0\SV21T1020533.DataLayers.deps.json
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\bin\Debug\net8.0\SV21T1020533.DataLayers.dll
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\bin\Debug\net8.0\SV21T1020533.DataLayers.pdb
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\obj\Debug\net8.0\SV21T1020533.DataLayers.GeneratedMSBuildEditorConfig.editorconfig
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\obj\Debug\net8.0\SV21T1020533.DataLayers.AssemblyInfoInputs.cache
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\obj\Debug\net8.0\SV21T1020533.DataLayers.AssemblyInfo.cs
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\obj\Debug\net8.0\SV21T1020533.DataLayers.csproj.CoreCompileInputs.cache
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\obj\Debug\net8.0\SV21T1020533.DataLayers.dll
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\obj\Debug\net8.0\refint\SV21T1020533.DataLayers.dll
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\obj\Debug\net8.0\SV21T1020533.DataLayers.pdb
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\obj\Debug\net8.0\ref\SV21T1020533.DataLayers.dll
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\bin\Debug\net8.0\SV21T1020533.DomainModels.dll
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\bin\Debug\net8.0\SV21T1020533.DomainModels.pdb
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\obj\Debug\net8.0\SV21T1020533.DataLayers.csproj.AssemblyReference.cache
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\obj\Debug\net8.0\SV21T102.ADBB6975.Up2Date

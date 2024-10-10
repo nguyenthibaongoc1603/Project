@@ -1,0 +1,17 @@
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\bin\Debug\net8.0\SV21T1020533.BusinessLayers.deps.json
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\bin\Debug\net8.0\SV21T1020533.BusinessLayers.dll
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\bin\Debug\net8.0\SV21T1020533.BusinessLayers.pdb
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\obj\Debug\net8.0\SV21T1020533.BusinessLayers.GeneratedMSBuildEditorConfig.editorconfig
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\obj\Debug\net8.0\SV21T1020533.BusinessLayers.AssemblyInfoInputs.cache
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\obj\Debug\net8.0\SV21T1020533.BusinessLayers.AssemblyInfo.cs
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\obj\Debug\net8.0\SV21T1020533.BusinessLayers.csproj.CoreCompileInputs.cache
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\obj\Debug\net8.0\SV21T1020533.BusinessLayers.dll
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\obj\Debug\net8.0\refint\SV21T1020533.BusinessLayers.dll
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\obj\Debug\net8.0\SV21T1020533.BusinessLayers.pdb
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\obj\Debug\net8.0\ref\SV21T1020533.BusinessLayers.dll
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\bin\Debug\net8.0\SV21T1020533.DataLayers.dll
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\bin\Debug\net8.0\SV21T1020533.DomainModels.dll
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\bin\Debug\net8.0\SV21T1020533.DataLayers.pdb
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\bin\Debug\net8.0\SV21T1020533.DomainModels.pdb
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\obj\Debug\net8.0\SV21T1020533.BusinessLayers.csproj.AssemblyReference.cache
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.BusinessLayers\obj\Debug\net8.0\SV21T102.322E865E.Up2Date
