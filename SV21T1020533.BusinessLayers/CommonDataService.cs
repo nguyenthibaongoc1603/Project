@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace SV21T1020533.BusinessLayers
 {
@@ -16,6 +17,7 @@ namespace SV21T1020533.BusinessLayers
         private static readonly ICommonDAL<Supplier> supplierDB;
         private static readonly ICommonDAL<Employee> employeeDB;
         private static readonly ICommonDAL<Shipper> shipperDB;  
+        private static readonly ISimpleSelectDAL<Province> provinceDB; 
         /// <summary>
         /// ctor
         /// </summary>
@@ -27,6 +29,7 @@ namespace SV21T1020533.BusinessLayers
             supplierDB = new DataLayers.SQLServer.SupplierDAL(connectionString);
             employeeDB = new DataLayers.SQLServer.EmployeeDAL(connectionString);
             shipperDB = new DataLayers.SQLServer.ShipperDAL(connectionString);
+            provinceDB = new DataLayers.SQLServer.ProvinceDAL(connectionString);
 
         }
         public static List<Customer> ListOfCustomers(out int rowCount, int page = 1, int pageSize = 0, string searchValue = "")
@@ -54,7 +57,146 @@ namespace SV21T1020533.BusinessLayers
             rowCount = shipperDB.Count(searchValue);
             return shipperDB.List(page, pageSize,searchValue) ;
         }
+        public static List<Province> ListOfProvinces()
+        {
+            return provinceDB.List();
+        }
+        //Customer
+        public static Customer? GetCustomer(int id)
+        {
+            return customerDB.Get(id);
+        }
+        public static int AddCustomer(Customer data)
+        {
+            return customerDB.Add(data);
+        }
+        public static bool UpdateCustomer(Customer data)
+        {
+            return customerDB.Update(data);
+        }
+        public static bool DeleteCustomer(int id)
+        {
+            return customerDB.Delete(id);
+        }
+        /// <summary>
+        /// Kiểm tra xem khách hàng có dữ liệu liên quan hay không
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public static bool InUsedCustomer(int id)
+        {
+            return customerDB.InUsed(id);
+        }
+
+        //Category
+
+        public static Category? GetCategory(int id)
+        {
+            return categoryDB.Get(id);
+        }
+        public static int AddCategory(Category data)
+        {
+            return categoryDB.Add(data);
+        }
+        public static bool UpdateCategory(Category data)
+        {
+            return categoryDB.Update(data);
+        }
+        public static bool DeleteCategory(int id)
+        {
+            return categoryDB.Delete(id);
+        }
+        /// <summary>
+        /// Kiểm tra xem loại hàng có dữ liệu liên quan hay không
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public static bool InUsedCategory(int id)
+        {
+            return categoryDB.InUsed(id);
+        }
+
+        //Employee
+        public static Employee? GetEmployee(int id)
+        {
+            return employeeDB.Get(id);
+        }
+        public static int AddEmployee(Employee data)
+        {
+            return employeeDB.Add(data);
+        }
+        public static bool UpdateEmployee(Employee data)
+        {
+            return employeeDB.Update(data);
+        }
+        public static bool DeleteEmployee(int id)
+        {
+            return employeeDB.Delete(id);
+        }
+        /// <summary>
+        /// Kiểm tra xem nhân viên có dữ liệu liên quan hay không
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public static bool InUsedEmployee(int id)
+        {
+            return employeeDB.InUsed(id);
+        }
 
 
+        //Shipper
+        public static Shipper? GetShipper(int id)
+        {
+            return shipperDB.Get(id);
+        }
+        public static int AddShipper(Shipper data)
+        {
+            return shipperDB.Add(data);
+        }
+        public static bool UpdateShipper(Shipper data)
+        {
+            return shipperDB.Update(data);
+        }
+        public static bool DeleteShipper(int id)
+        {
+            return shipperDB.Delete(id);
+        }
+        /// <summary>
+        /// Kiểm tra xem người giao hàng có dữ liệu liên quan hay không
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public static bool InUsedShipper(int id)
+        {
+            return shipperDB.InUsed(id);
+        }
+
+
+        //Supplier
+        public static Supplier? GetSupplier(int id)
+        {
+            return supplierDB.Get(id);
+        }
+        public static int AddSupplier(Supplier data)
+        {
+            return supplierDB.Add(data);
+        }
+        public static bool UpdateSupplier(Supplier data)
+        {
+            return supplierDB.Update(data);
+        }
+        public static bool DeleteSupplier(int id)
+        {
+            return supplierDB.Delete(id);
+        }
+        /// <summary>
+        /// Kiểm tra xem nhà cung cấp có dữ liệu liên quan hay không
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public static bool InUsedSupplier(int id)
+        {
+            return supplierDB.InUsed(id);
+        }
     }
 }

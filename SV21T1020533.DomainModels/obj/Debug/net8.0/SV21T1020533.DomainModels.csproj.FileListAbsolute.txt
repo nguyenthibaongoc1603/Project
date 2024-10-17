@@ -9,3 +9,4 @@ E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DomainModels\obj\Debu
 E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DomainModels\obj\Debug\net8.0\refint\SV21T1020533.DomainModels.dll
 E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DomainModels\obj\Debug\net8.0\SV21T1020533.DomainModels.pdb
 E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DomainModels\obj\Debug\net8.0\ref\SV21T1020533.DomainModels.dll
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DomainModels\obj\Debug\net8.0\SV21T1020533.DomainModels.sourcelink.json

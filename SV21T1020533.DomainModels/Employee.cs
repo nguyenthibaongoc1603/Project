@@ -11,7 +11,7 @@ namespace SV21T1020533.DomainModels
         public int EmployeeID { get; set; }
 
         public string FullName { get; set; } = string.Empty;
-        public string BirthDate { get; set; }
+        public DateTime BirthDate { get; set; }
 
         public string Photo { get; set; } = string.Empty;
 

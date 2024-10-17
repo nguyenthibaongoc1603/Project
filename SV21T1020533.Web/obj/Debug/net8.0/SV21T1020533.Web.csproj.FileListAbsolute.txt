@@ -255,3 +255,4 @@ E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.Web\bin\Debug\net8.0\
 E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.Web\bin\Debug\net8.0\SV21T1020533.BusinessLayers.pdb
 E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.Web\bin\Debug\net8.0\SV21T1020533.DataLayers.pdb
 E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.Web\bin\Debug\net8.0\SV21T1020533.DomainModels.pdb
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.Web\obj\Debug\net8.0\SV21T1020533.Web.sourcelink.json

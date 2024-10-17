@@ -13,3 +13,4 @@ E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\bin\Debug\
 E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\bin\Debug\net8.0\SV21T1020533.DomainModels.pdb
 E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\obj\Debug\net8.0\SV21T1020533.DataLayers.csproj.AssemblyReference.cache
 E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\obj\Debug\net8.0\SV21T102.ADBB6975.Up2Date
+E:\VisualStudioProjects\Projects\SV21T1020533\SV21T1020533.DataLayers\obj\Debug\net8.0\SV21T1020533.DataLayers.sourcelink.json

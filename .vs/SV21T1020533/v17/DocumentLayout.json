@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "E:\\VisualStudioProjects\\Projects\\SV21T1020533\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D62EE795-CD9B-4BCF-B270-4077C70F8745}|SV21T1020533.Web\\SV21T1020533.Web.csproj|e:\\visualstudioprojects\\projects\\sv21t1020533\\sv21t1020533.web\\views\\shipper\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D62EE795-CD9B-4BCF-B270-4077C70F8745}|SV21T1020533.Web\\SV21T1020533.Web.csproj|solutionrelative:sv21t1020533.web\\views\\shipper\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D62EE795-CD9B-4BCF-B270-4077C70F8745}|SV21T1020533.Web\\SV21T1020533.Web.csproj|e:\\visualstudioprojects\\projects\\sv21t1020533\\sv21t1020533.web\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D62EE795-CD9B-4BCF-B270-4077C70F8745}|SV21T1020533.Web\\SV21T1020533.Web.csproj|solutionrelative:sv21t1020533.web\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D62EE795-CD9B-4BCF-B270-4077C70F8745}|SV21T1020533.Web\\SV21T1020533.Web.csproj|e:\\visualstudioprojects\\projects\\sv21t1020533\\sv21t1020533.web\\controllers\\shippercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D62EE795-CD9B-4BCF-B270-4077C70F8745}|SV21T1020533.Web\\SV21T1020533.Web.csproj|solutionrelative:sv21t1020533.web\\controllers\\shippercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D62EE795-CD9B-4BCF-B270-4077C70F8745}|SV21T1020533.Web\\SV21T1020533.Web.csproj|e:\\visualstudioprojects\\projects\\sv21t1020533\\sv21t1020533.web\\views\\supplier\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D62EE795-CD9B-4BCF-B270-4077C70F8745}|SV21T1020533.Web\\SV21T1020533.Web.csproj|solutionrelative:sv21t1020533.web\\views\\supplier\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\VisualStudioProjects\\Projects\\SV21T1020533\\SV21T1020533.Web\\Views\\Employee\\Index.cshtml",
-              "RelativeDocumentMoniker": "SV21T1020533.Web\\Views\\Employee\\Index.cshtml",
-              "ToolTip": "E:\\VisualStudioProjects\\Projects\\SV21T1020533\\SV21T1020533.Web\\Views\\Employee\\Index.cshtml",
-              "RelativeToolTip": "SV21T1020533.Web\\Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAAEYAAACAMzMzMzMrwEkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-10T14:00:22.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\VisualStudioProjects\\Projects\\SV21T1020533\\SV21T1020533.Web\\Views\\Shipper\\Index.cshtml",
-              "RelativeDocumentMoniker": "SV21T1020533.Web\\Views\\Shipper\\Index.cshtml",
-              "ToolTip": "E:\\VisualStudioProjects\\Projects\\SV21T1020533\\SV21T1020533.Web\\Views\\Shipper\\Index.cshtml",
-              "RelativeToolTip": "SV21T1020533.Web\\Views\\Shipper\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAUAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\VisualStudioProjects\\Projects\\SV21T1020533\\SV21T1020533.Web\\Views\\Supplier\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020533.Web\\Views\\Supplier\\Edit.cshtml",
+              "ToolTip": "E:\\VisualStudioProjects\\Projects\\SV21T1020533\\SV21T1020533.Web\\Views\\Supplier\\Edit.cshtml",
+              "RelativeToolTip": "SV21T1020533.Web\\Views\\Supplier\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-10T13:59:29.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ShipperController.cs",
-              "DocumentMoniker": "E:\\VisualStudioProjects\\Projects\\SV21T1020533\\SV21T1020533.Web\\Controllers\\ShipperController.cs",
-              "RelativeDocumentMoniker": "SV21T1020533.Web\\Controllers\\ShipperController.cs",
-              "ToolTip": "E:\\VisualStudioProjects\\Projects\\SV21T1020533\\SV21T1020533.Web\\Controllers\\ShipperController.cs",
-              "RelativeToolTip": "SV21T1020533.Web\\Controllers\\ShipperController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T13:58:07.838Z",
+              "WhenOpened": "2024-10-17T15:53:29.305Z",
               "EditorCaption": ""
             }
           ]

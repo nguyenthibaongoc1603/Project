@@ -8,7 +8,7 @@
         <form action="~/Shipper" method="get">
             <div class="input-group">
 
-                <input type="text" class="form-control" placeholder="Nhập tên người giao hàng cần tìm" autofocus name="searchValue" value=@ViewBag.SearchValue  />
+                <input type="text" class="form-control" placeholder="Nhập tên người giao hàng cần tìm" autofocus name="searchValue" value="@ViewBag.SearchValue" />
 
                 <div class="input-group-btn">
                     <button class="btn btn-info" type="submit">
@@ -64,7 +64,7 @@
                     }
                     else
                     {
-                        <li><a href="~/Customer?page=@p&searchValue=@ViewBag.SearchValue">@p</a></li>
+                        <li><a href="~/Shipper?page=@p&searchValue=@ViewBag.SearchValue">@p</a></li>
                     }
                 }
             </ul>

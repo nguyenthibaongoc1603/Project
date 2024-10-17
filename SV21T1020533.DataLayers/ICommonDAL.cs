@@ -43,7 +43,7 @@ namespace SV21T1020533.DataLayers
         /// </summary>
         /// <param name="data"></param>
         /// <returns></returns>
-        bool Delete(T data);
+        bool Delete(int id);
         /// <summary>
         /// lấy 1 dòng dlieu
         /// </summary>

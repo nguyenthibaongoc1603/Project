@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SV21T1020533.BusinessLayers;
+using SV21T1020533.DomainModels;
 
 namespace SV21T1020533.Web.Controllers
 {
@@ -25,16 +26,46 @@ namespace SV21T1020533.Web.Controllers
         public IActionResult Create()
         {
             ViewBag.Title = "Bổ sung nhà cung cấp";
-            return View("Edit");
+            var data = new Supplier()
+            {
+                SupplierID = 0,
+            };
+            return View("Edit", data);
         }
         public IActionResult Edit(int id = 0)
         {
             ViewBag.Title = "Cập nhật thông tin nhà cung cấp";
-            return View();
+            var data = CommonDataService.GetSupplier(id);
+            if (data == null)
+                return RedirectToAction("Index");
+            return View(data);
         }
         public IActionResult Delete(int id = 0)
         {
-            return View();
+            if (Request.Method == "POST")
+            {
+                bool a = CommonDataService.DeleteSupplier(id);
+                return RedirectToAction("Index");
+            }
+            var data = CommonDataService.GetSupplier(id);
+            if (data == null)
+                return RedirectToAction("Index");
+
+            return View(data);
+        }
+        [HttpPost]
+        public IActionResult Save(Supplier data)
+        {
+            //TODO: Kiem tra du lieu dau vao dung hay khong?
+            if (data.SupplierID == 0)
+            {
+                int id = CommonDataService.AddSupplier(data);
+            }
+            else
+            {
+                bool result = CommonDataService.UpdateSupplier(data);
+            }
+            return RedirectToAction("Index");
         }
     }
 }
